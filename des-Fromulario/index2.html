@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Donacion</title>
+	<meta name="viewport" content="width_device-width,initial-scale-1.0">
+	<link rel="stylesheet" type="text/css" href="for.css">
+
+</head>
+<body>
+	<header>
+		<h2>HAZ TU DONACIÓN</h2>
+		<p>Revisar su envio</p>
+	</header>
+<section>
+ <div class="container"></div>
+	<form>
+		<div class="fila">
+			<div class="col-25">
+			<label>Tipo de Donación </label>
+			</div>
+			<div class="col-75">
+				<input type="radio" name="Tipo" value="mensual">Mensual<br>
+				<input type="radio" name="Tipo" value="trimestral">Trimestral<br>
+				<input type="radio" name="Tipo" value="Semestral">Semestral<br>
+				<input type="radio" name="Tipo" value="Anual">Anual<br>
+			</div>
+		</div>
+		<div class="fila">
+			<div class="col-25">
+			<label>Monto: </label>
+			</div>
+			<div class="col-75">
+				<input type="number" name="monto" min="1">
+			</div>
+		</div>
+		<div class="fila">
+			<div class="col-25">
+			<label>Metodo de pago</label>
+			</div>
+			<div class="col-75">
+				<input type="radio" name="Tipo" value="mensual">Tarjeta de Credito<br>
+				<input type="radio" name="Tipo" value="trimestral">PayPal<br>
+			</div>
+		</div>
+		<div class="fila">
+			<div class="col-25">
+			<label>Nombre: </label>
+			</div>
+			<div class="col-75">
+				<input type="text" name="nom" placeholder="Escribe tu nombre aquí">
+			</div>
+		</div>
+		<div class="fila">
+			<div class="col-25">
+			<label>Apellido: </label>
+			</div>
+			<div class="col-75">
+				<input type="text" name="nom" placeholder="Escribe tu apellido aquí">
+			</div>
+		</div>
+		<div class="fila">
+			<div class="col-25">
+			<label>Clave: </label>
+			</div>
+			<div class="col-75">
+				<input type="password" name="clave" placeholder="Escribe tu clave aquí"  minlength="8" maxlength="15">
+			</div>
+		</div>
+		<div class="fila">
+			<div class="col-25">
+			<label>Correo: </label>
+			</div>
+			<div class="col-75">
+				<input type="email" name="correo" placeholder="Dirección de correo Electrónico">
+			</div>
+		</div>
+		<div class="fila">
+			<div class="col-25">
+			<label>Pais: </label>
+			</div>
+			<div class="col-75">
+				<select name="pais">
+					<option>ALEMANIA</option>
+					<option>ANDORRA</option>
+					<option>ARGENTINA</option>
+					<option>BOLIVIA</option>
+					<option>BELICE</option>
+					<option>BRASIL</option>
+					<option>CHILE</option>
+					<option>COLOMBIA</option>
+					<option>ECUADOR</option>
+					<option>PARAGUAY</option>
+					<option>PERÚ</option>
+					<option>SURINAM</option>
+					<option>VENEZUELA</option>
+					<option>CUBA</option>
+					<option>CHINA</option>
+					<option>URUGUAY</option>
+				</select>
+			</div>
+		</div>
+		<div class="fila">
+			<div class="col-25">
+			<label>Fecha: </label>
+			</div>
+			<div class="col-75">
+				<input type="date" name="fecha" min="2021-11-01">
+			</div>
+		</div>
+		<div class="fila">
+			<div class="col-25">
+			<label>Comentarios </label>
+			</div>
+			<div class="col-75">
+				<textarea></textarea>
+			</div>
+		</div>
+		<div class="fila">
+			<div class="col-50">
+			<input type="submit" name="enviar" value="enviar Formulario">
+			</div>
+			<div class="col-50">
+				<input type="reset" name="clear" value="limpiar Formulario">
+			</div>
+		</div>
+		
+	</form>
+	</div>
+</section>
+</body>
+</html>
